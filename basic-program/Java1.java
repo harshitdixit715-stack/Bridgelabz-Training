@@ -20,7 +20,8 @@ public class Java1{
 		 int k=10;
 		 do{
 			 System.out.println("k: "+ k);
-			 k--;
+			
+			k--;
 		 }while(k>0);
 	 }
 }
