@@ -7,7 +7,7 @@ public class PowerOfNumber {
         int number = in.nextInt();
         System.out.println("Enter a power");
         int power = in.nextInt();
-        if(number<0 && power<0){
+        if(number<0 || power<0){
             System.out.println("Enter a Positive number" );
         }
         else{
